@@ -3,11 +3,13 @@ package test.lucene.client;
 import test.lucene.consts.SearchConsts;
 import test.lucene.core.Searcher;
 
+import java.util.List;
+
 /**
- * ²âÊÔÀà
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author chuzhen
  *
- * 2017Äê6ÔÂ4ÈÕ
+ * 2017ï¿½ï¿½6ï¿½ï¿½4ï¿½ï¿½
  */
 public class Test {
 
@@ -16,7 +18,12 @@ public class Test {
 		
 		Searcher manager = Searcher.getInstance();
 //		manager.createIndex(SearchConsts.DATA_DIR);
-		manager.search("¹ØÁ¬×Ö¶Î");
-		
+		manager.search("ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½");
+
+		String s = new String();
+
+	}
+
+	public static void test(List<String> list) {
 	}
 }
